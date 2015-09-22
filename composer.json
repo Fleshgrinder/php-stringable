@@ -1,0 +1,21 @@
+{
+    "name": "fleshgrinder/stringable",
+    "description": "Interface for easy identification of classes that implement the magic __toString method.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Fussenegger",
+            "email": "fleshgrinder@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fleshgrinder\\Stringable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fleshgrinder\\Stringable\\": "test/"
+        }
+    }
+}
