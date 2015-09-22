@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Fleshgrinder\\Stringable\\": "src/"
+            "Fleshgrinder\\Core\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fleshgrinder\\Stringable\\": "test/"
+            "Fleshgrinder\\Core\\": "test/"
         }
     }
 }

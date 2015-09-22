@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-namespace Fleshgrinder\Component;
+namespace Fleshgrinder\Core;
 
 /**
  * Defines the stringable interface.
