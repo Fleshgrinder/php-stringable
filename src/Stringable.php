@@ -26,6 +26,9 @@ interface Stringable {
     /**
      * Get the string representation of this object.
      *
+     * This method **MUST NOT** throw an exception because this leads to a fatal error due to limitations in PHP's Zend
+     * engine. You may want to vote (and comment) on [PHP Request #53648](https://bugs.php.net/bug.php?id=53648).
+     *
      * @see https://secure.php.net/language.oop5.magic#object.tostring
      * @return string
      *   The string representation of this object.
