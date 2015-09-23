@@ -25,7 +25,17 @@ final class StringableDummy implements Stringable {
      *
      * @var string
      */
-    public $string = '';
+    public $string;
+
+    /**
+     * Construct new stringable dummy instance.
+     *
+     * @param string|Stringable $string [optional]
+     *     String that should be returned by this instance.
+     */
+    public function __construct($string = '') {
+        $this->string = $string;
+    }
 
     /**
      * @inheritDoc
