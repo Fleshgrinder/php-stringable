@@ -1,3 +1,5 @@
+[![Packagist](https://img.shields.io/packagist/v/Fleshgrinder/stringable.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/stringable)
+[![Packagist License](https://img.shields.io/packagist/l/Fleshgrinder/stringable.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/stringable)
 # Stringable
 Interface for easy identification of classes that implement PHP’s magic
  [`__toString`](https://secure.php.net/language.oop5.magic#object.tostring) method.
