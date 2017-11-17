@@ -34,5 +34,4 @@ interface Stringable {
      *   The string representation of this object.
      */
     public function __toString();
-
 }
