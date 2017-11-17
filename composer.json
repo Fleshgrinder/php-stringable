@@ -8,6 +8,12 @@
             "email": "fleshgrinder@users.noreply.github.com"
         }
     ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0.0"
+    },
     "autoload": {
         "psr-4": {
             "Fleshgrinder\\Core\\": "src/"
